@@ -1,0 +1,35 @@
+.position-absolute{
+    position: absolute;
+    top: -5px;
+    right: 0;
+    z-index: -1;
+    .image_right{
+      width: 550px;
+      height: 450px;
+    }
+}
+
+.navbar-nav {
+    .nav-link {
+        font-size: 0.7rem;
+        font-weight: bold;
+    }
+    
+    .login-nav {
+        line-height: 10px;
+        width: 75px;
+        border-radius: 18px;
+        color: #17bee2 !important;
+        background-color: white;
+        border: 2px solid #17bee2;
+    }
+
+    .signup-nav{
+        line-height: 10px;
+        width: 75px !important;
+        margin-left: 10px;
+        color: white !important;
+        border-radius: 18px;
+        background-color: #17bee2 !important;
+    }
+}

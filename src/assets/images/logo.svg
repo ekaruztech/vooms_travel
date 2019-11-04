@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="170" height="56" viewBox="0 0 170 56">
+    <defs>
+        <linearGradient id="a" x1="0%" y1="50%" y2="50%">
+            <stop offset="0%" stop-color="#0BDCBE"/>
+            <stop offset="100%" stop-color="#179EDF"/>
+        </linearGradient>
+        <linearGradient id="d" x1="5.148%" x2="95.928%" y1="12.98%" y2="12.98%">
+            <stop offset="0%" stop-color="#10D7C2"/>
+            <stop offset="100%" stop-color="#169BDF"/>
+        </linearGradient>
+        <path id="c" d="M30.91 31.546c.008-.056.016-.083.026-.083 3.52-6.916 6.076-10.905 7.667-11.968 1.203-.803 3.653-1.594 5.584-1.594h17.57l-3.353 4.586c-8.705-.437-13.708-.437-15.01 0-1.302.437-2.629 1.574-3.98 3.41l-3.5 5.452-4.962 8.272v.036l-.012-.017-.004.007v-.015l-5.093-8.161-3.5-5.452c-1.35-1.837-2.678-2.974-3.98-3.41-1.302-.438-6.1-.438-14.392 0L0 18.022h17.57c1.931 0 4.381.79 5.584 1.593 1.591 1.063 4.17 5.025 7.736 11.885.007 0 .014.015.02.045z"/>
+        <filter id="b" width="103.2%" height="118.4%" x="-1.6%" y="-4.6%" filterUnits="objectBoundingBox">
+            <feOffset dy="2" in="SourceAlpha" result="shadowOffsetOuter1"/>
+            <feColorMatrix in="shadowOffsetOuter1" values="0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 1 0"/>
+        </filter>
+    </defs>
+    <g fill="none" fill-rule="evenodd">
+        <text fill="#111" font-family="ProximaNova-Semibold, Proxima Nova" font-size="18" font-weight="500" transform="translate(0 3)">
+            <tspan x="82" y="28">Voomsway</tspan>
+        </text>
+        <g transform="translate(0 3)">
+            <circle cx="31.173" cy="25" r="25" stroke="url(#a)" stroke-width="5"/>
+            <use fill="#000" filter="url(#b)" xlink:href="#c"/>
+            <use fill="url(#d)" xlink:href="#c"/>
+        </g>
+    </g>
+</svg>

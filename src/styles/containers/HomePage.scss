@@ -1,0 +1,35 @@
+.container {
+  .small-text {
+    font-size: 10px;
+  }
+
+  .cards-row {
+    margin-top: 120px;
+  }
+
+  .company-cards {
+    height: 300px;
+  }
+
+  #discount-topright {
+    width: 0;
+    height: 0;
+    top: 0;
+    right: 0;
+    border-top: 40px solid #FF5500;
+    border-left: 40px solid transparent;
+    position: absolute;
+    z-index: 1;
+  }
+}
+
+.position-absolute-mid {
+  position: absolute;
+  top: 320px;
+  left: 0;
+  z-index: -1;
+  .image_left{
+    width: 260px;
+    height: 600px;
+  }
+}
